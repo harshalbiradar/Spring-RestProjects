@@ -1,0 +1,6 @@
+
+create sequence reg_seq start with 1 increment by 1;
+
+ create table Registration(ID NUMBER(10),CLASS_ID NUMBER(15),firstname varchar2(10),middlename varchar2(10),lastname varchar2(10),
+ AGE NUMBER(10),EMAIL_ID VARCHAR2(15),CONTACT_NO NUMBER(15),ADDRESS VARCHAR2(20),ROLE VARCHAR2(10)
+ ,USERNAME VARCHAR2(15),PASSWORD VARCHAR2(15));
