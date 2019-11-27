@@ -1,0 +1,61 @@
+package com.nendrasys.dto;
+
+
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
+public class StudentDto {
+	@XmlAttribute
+	private int id;
+	@XmlElement
+	private String name;
+	@XmlElement
+	private int age;
+	@XmlElement
+	private String course;
+	@XmlElement
+	private int fee;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getCourse() {
+		return course;
+	}
+	public void setCourse(String course) {
+		this.course = course;
+	}
+	public int getFee() {
+		return fee;
+	}
+	public void setFee(int fee) {
+		this.fee = fee;
+	}
+	@Override
+	public String toString() {
+		return "StudentDto [id=" + id + ", name=" + name + ", age=" + age + ", course=" + course + ", fee=" + fee + "]";
+	}
+
+	
+}

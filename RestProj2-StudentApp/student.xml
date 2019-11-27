@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<studentDtoss>
+    <dtosss id="1">
+        <name>harshal</name>
+        <age>23</age>
+        <course>hybris</course>
+        <fee>5000</fee>
+    </dtosss>
+    <dtosss id="2">
+        <name>ashu</name>
+        <age>24</age>
+        <course>spring</course>
+        <fee>3000</fee>
+    </dtosss>
+    <dtosss id="21">
+        <name>Rushi</name>
+        <age>23</age>
+        <course>spring</course>
+        <fee>400</fee>
+    </dtosss>
+    <dto id="1">
+        <name>harshal</name>
+        <age>23</age>
+        <course>hybris</course>
+        <fee>5000</fee>
+    </dto>
+    <dto id="2">
+        <name>ashu</name>
+        <age>24</age>
+        <course>spring</course>
+        <fee>3000</fee>
+    </dto>
+    <dto id="21">
+        <name>Rushi</name>
+        <age>23</age>
+        <course>spring</course>
+        <fee>400</fee>
+    </dto>
+</studentDtoss>
